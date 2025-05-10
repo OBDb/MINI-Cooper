@@ -1,4 +1,4 @@
-model_year: 2020
+model_year: 2022
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 unsupported_commands_by_ecu:
