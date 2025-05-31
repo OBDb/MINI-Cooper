@@ -2,7 +2,7 @@ command_id: 6F1.607.22DDC0|e=07,fc=1
 test_cases:
 - response: |-
     607F1100962DDC00BB4
-    607F1210CE00C5AFFFF
+    607F1210CE00C57FFFF
   expected_values:
     MINI_HVBAT_CT_MAX: 32.96
     MINI_HVBAT_CT_MIN: 29.96
