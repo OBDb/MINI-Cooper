@@ -1,12 +1,17 @@
 command_id: 6F1.607.226335|e=07,fc=1
 test_cases:
-- response: |-
+- expected_values:
+    MINI_HVBAT_SOH: 95
+  response: |-
     607F110076263350000
     607F121005FFFFFFFFF
-  expected_values:
-    MINI_HVBAT_SOH: 95
-- response: |-
+- expected_values:
+    MINI_HVBAT_SOH: 96
+  response: |-
     607F110076263350000
     607F1210060FFFFFFFF
-  expected_values:
-    MINI_HVBAT_SOH: 96
+- expected_values:
+    MINI_HVBAT_SOH: 97
+  response: |-
+    607F110076263350000
+    607F1210061FFFFFFFF
