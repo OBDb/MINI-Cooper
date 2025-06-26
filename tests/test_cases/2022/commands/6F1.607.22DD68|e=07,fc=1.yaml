@@ -1,32 +1,32 @@
 command_id: 6F1.607.22DD68|e=07,fc=1
 test_cases:
-- response: 607F10562DD688DD0
-  expected_values:
+- expected_values:
     MINI_HVBAT_VOLT: 363.04
-- response: 607F10562DD688DF5
-  expected_values:
+  response: 607F10562DD688DD0
+- expected_values:
     MINI_HVBAT_VOLT: 363.41
-- response: 607F10562DD6892E7
-  expected_values:
+  response: 607F10562DD688DF5
+- expected_values:
     MINI_HVBAT_VOLT: 376.07
-- response: 607F10562DD68932E
-  expected_values:
+  response: 607F10562DD6892E7
+- expected_values:
     MINI_HVBAT_VOLT: 376.78
-- response: 607F10562DD6893AA
-  expected_values:
+  response: 607F10562DD68932E
+- expected_values:
     MINI_HVBAT_VOLT: 378.02
-- response: 607F10562DD6893AB
-  expected_values:
+  response: 607F10562DD6893AA
+- expected_values:
     MINI_HVBAT_VOLT: 378.03
-- response: 607F10562DD68948A
-  expected_values:
+  response: 607F10562DD6893AB
+- expected_values:
     MINI_HVBAT_VOLT: 380.26
-- response: 607F10562DD68948C
-  expected_values:
+  response: 607F10562DD68948A
+- expected_values:
     MINI_HVBAT_VOLT: 380.28
-- response: 607F10562DD689542
-  expected_values:
+  response: 607F10562DD68948C
+- expected_values:
     MINI_HVBAT_VOLT: 382.1
-- response: 607F10562DD689777
-  expected_values:
+  response: 607F10562DD689542
+- expected_values:
     MINI_HVBAT_VOLT: 387.75
+  response: 607F10562DD689777

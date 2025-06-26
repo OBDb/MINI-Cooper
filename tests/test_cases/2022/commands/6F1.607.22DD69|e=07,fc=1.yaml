@@ -1,38 +1,38 @@
 command_id: 6F1.607.22DD69|e=07,fc=1
 test_cases:
-- response: |-
-    607F1100762DD69FFFF
-    607F121F405FFFFFFFF
-  expected_values:
+- expected_values:
     MINI_HVBAT_C: -30.67
     MINI_HVBAT_CURR: 10000
-- response: |-
+  response: |-
     607F1100762DD69FFFF
-    607F121FCD6FFFFFFFF
-  expected_values:
+    607F121F405FFFFFFFF
+- expected_values:
     MINI_HVBAT_C: -8.1
     MINI_HVBAT_CURR: 10000
-- response: |-
+  response: |-
     607F1100762DD69FFFF
-    607F121FF3AFFFFFFFF
-  expected_values:
+    607F121FCD6FFFFFFFF
+- expected_values:
     MINI_HVBAT_C: -1.98
     MINI_HVBAT_CURR: 10000
-- response: |-
+  response: |-
     607F1100762DD69FFFF
-    607F121FF3EFFFFFFFF
-  expected_values:
+    607F121FF3AFFFFFFFF
+- expected_values:
     MINI_HVBAT_C: -1.94
     MINI_HVBAT_CURR: 10000
-- response: |-
+  response: |-
     607F1100762DD69FFFF
-    607F121FFC5FFFFFFFF
-  expected_values:
+    607F121FF3EFFFFFFFF
+- expected_values:
     MINI_HVBAT_C: -0.59
     MINI_HVBAT_CURR: 10000
-- response: |-
+  response: |-
     607F1100762DD69FFFF
-    607F121FFC7FFFFFFFF
-  expected_values:
+    607F121FFC5FFFFFFFF
+- expected_values:
     MINI_HVBAT_C: -0.57
     MINI_HVBAT_CURR: 10000
+  response: |-
+    607F1100762DD69FFFF
+    607F121FFC7FFFFFFFF
