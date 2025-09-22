@@ -4,8 +4,8 @@ test_cases:
     MINI_VSS: 0
   response: 660F10562D1070000
 - expected_values:
-    MINI_VSS: 25.5
-  response: 660F10562D10700FF
+    MINI_VSS: 51.1
+  response: 660F10562D10701FF
 - expected_values:
-    MINI_VSS: 153.6
-  response: 660F10562D1070600
+    MINI_VSS: 104.9
+  response: 660F10562D1070419
