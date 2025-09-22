@@ -1,0 +1,68 @@
+command_id: 6F1.607.22DDC0|e=07,fc=1
+test_cases:
+- expected_values:
+    MINI_HVBAT_CT_MAX: 20.97
+    MINI_HVBAT_CT_MIN: 19.97
+  response: |-
+    607F1100962DDC007CD
+    607F121083107EBFFFF
+- expected_values:
+    MINI_HVBAT_CT_MAX: 20.96
+    MINI_HVBAT_CT_MIN: 20
+  response: |-
+    607F1100962DDC007D0
+    607F121083007D4FFFF
+- expected_values:
+    MINI_HVBAT_CT_MAX: 20.94
+    MINI_HVBAT_CT_MIN: 20.02
+  response: |-
+    607F1100962DDC007D2
+    607F121082E07F0FFFF
+- expected_values:
+    MINI_HVBAT_CT_MAX: 22.07
+    MINI_HVBAT_CT_MIN: 20.07
+  response: |-
+    607F1100962DDC007D7
+    607F121089F0847FFFF
+- expected_values:
+    MINI_HVBAT_CT_MAX: 20.63
+    MINI_HVBAT_CT_MIN: 20.17
+  response: |-
+    607F1100962DDC007E1
+    607F121080F07F0FFFF
+- expected_values:
+    MINI_HVBAT_CT_MAX: 20.97
+    MINI_HVBAT_CT_MIN: 20.59
+  response: |-
+    607F1100962DDC0080B
+    607F1210831082FFFFF
+- expected_values:
+    MINI_HVBAT_CT_MAX: 24.02
+    MINI_HVBAT_CT_MIN: 23.03
+  response: |-
+    607F1100962DDC008FF
+    607F1210962091BFFFF
+- expected_values:
+    MINI_HVBAT_CT_MAX: 24.03
+    MINI_HVBAT_CT_MIN: 23.04
+  response: |-
+    607F1100962DDC00900
+    607F12109630958FFFF
+- expected_values:
+    MINI_HVBAT_CT_MAX: 26.93
+    MINI_HVBAT_CT_MIN: 25.64
+  response: |-
+    607F1100962DDC00A04
+    607F1210A850A36FFFF
+- expected_values:
+    MINI_HVBAT_CT_MAX: 31
+    MINI_HVBAT_CT_MIN: 27.99
+  response: |-
+    607F1100962DDC00AEF
+    607F1210C1C0B71FFFF
+- expected_values:
+    MINI_HVBAT_CT_MAX: 31.99
+    MINI_HVBAT_CT_MIN: 27.99
+  response: |-
+    607F1100962DDC00AEF
+    607F1210C7F0B7FFFFF
