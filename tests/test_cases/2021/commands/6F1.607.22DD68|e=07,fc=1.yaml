@@ -7,8 +7,8 @@ test_cases:
     MINI_HVBAT_VOLT: 371.19
   response: 607F10562DD6890FF
 - expected_values:
-    MINI_HVBAT_VOLT: 396.8
-  response: 607F10562DD689B00
+    MINI_HVBAT_VOLT: 373.76
+  response: 607F10562DD689200
 - expected_values:
     MINI_HVBAT_VOLT: 400.23
   response: 607F10562DD689C57
