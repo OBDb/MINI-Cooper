@@ -7,29 +7,23 @@ test_cases:
     660F1100B62D10D0000
     660F121A0220000A022
 - expected_values:
+    MINI_ODO1: 42816
+    MINI_ODO2: 42816
+  response: |-
+    660F1100B62D10D0000
+    660F121A7400000A740
+- expected_values:
+    MINI_ODO1: 42822
+    MINI_ODO2: 42822
+  response: |-
+    660F1100B62D10D0000
+    660F121A7460000A746
+- expected_values:
     MINI_ODO1: 74837
     MINI_ODO2: 74837
   response: |-
     660F1100B62D10D0001
     660F121245500012455
-- expected_values:
-    MINI_ODO1: 74838
-    MINI_ODO2: 74838
-  response: |-
-    660F1100B62D10D0001
-    660F121245600012456
-- expected_values:
-    MINI_ODO1: 74839
-    MINI_ODO2: 74839
-  response: |-
-    660F1100B62D10D0001
-    660F121245700012457
-- expected_values:
-    MINI_ODO1: 75425
-    MINI_ODO2: 75425
-  response: |-
-    660F1100B62D10D0001
-    660F12126A1000126A1
 - expected_values:
     MINI_ODO1: 75455
     MINI_ODO2: 75455
@@ -37,26 +31,8 @@ test_cases:
     660F1100B62D10D0001
     660F12126BF000126BF
 - expected_values:
-    MINI_ODO1: 75616
-    MINI_ODO2: 75616
-  response: |-
-    660F1100B62D10D0001
-    660F121276000012760
-- expected_values:
-    MINI_ODO1: 75617
-    MINI_ODO2: 75617
-  response: |-
-    660F1100B62D10D0001
-    660F121276100012761
-- expected_values:
     MINI_ODO1: 75652
     MINI_ODO2: 75652
   response: |-
     660F1100B62D10D0001
     660F121278400012784
-- expected_values:
-    MINI_ODO1: 75653
-    MINI_ODO2: 75653
-  response: |-
-    660F1100B62D10D0001
-    660F121278500012785
