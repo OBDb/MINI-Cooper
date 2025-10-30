@@ -13,11 +13,23 @@ test_cases:
     607F1100962DDC0069F
     607F121076706FFFFFF
 - expected_values:
+    MINI_HVBAT_CT_MAX: 20.96
+    MINI_HVBAT_CT_MIN: 16.96
+  response: |-
+    607F1100962DDC006A0
+    607F1210830074CFFFF
+- expected_values:
     MINI_HVBAT_CT_MAX: 18.99
     MINI_HVBAT_CT_MIN: 16.99
   response: |-
     607F1100962DDC006A3
     607F121076B0700FFFF
+- expected_values:
+    MINI_HVBAT_CT_MAX: 20.95
+    MINI_HVBAT_CT_MIN: 16.99
+  response: |-
+    607F1100962DDC006A3
+    607F121082F0755FFFF
 - expected_values:
     MINI_HVBAT_CT_MAX: 17.99
     MINI_HVBAT_CT_MIN: 17
@@ -30,18 +42,6 @@ test_cases:
   response: |-
     607F1100962DDC006A6
     607F121070806DEFFFF
-- expected_values:
-    MINI_HVBAT_CT_MAX: 19.03
-    MINI_HVBAT_CT_MIN: 17.03
-  response: |-
-    607F1100962DDC006A7
-    607F121076F0701FFFF
-- expected_values:
-    MINI_HVBAT_CT_MAX: 19.04
-    MINI_HVBAT_CT_MIN: 17.06
-  response: |-
-    607F1100962DDC006AA
-    607F121077006F5FFFF
 - expected_values:
     MINI_HVBAT_CT_MAX: 17.99
     MINI_HVBAT_CT_MIN: 17.91
