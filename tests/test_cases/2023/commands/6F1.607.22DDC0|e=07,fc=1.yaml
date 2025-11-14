@@ -1,0 +1,26 @@
+command_id: 6F1.607.22DDC0|e=07,fc=1
+test_cases:
+- expected_values:
+    MINI_HVBAT_CT_MAX: 12.99
+    MINI_HVBAT_CT_MIN: 12.02
+  response: |-
+    607F1100962DDC004B2
+    607F1210513050CFFFF
+- expected_values:
+    MINI_HVBAT_CT_MAX: 12.99
+    MINI_HVBAT_CT_MIN: 12.02
+  response: |-
+    607F1100962DDC004B2
+    607F1210513050DFFFF
+- expected_values:
+    MINI_HVBAT_CT_MAX: 16.98
+    MINI_HVBAT_CT_MIN: 16.01
+  response: |-
+    607F1100962DDC00641
+    607F12106A20672FFFF
+- expected_values:
+    MINI_HVBAT_CT_MAX: 16.96
+    MINI_HVBAT_CT_MIN: 16.03
+  response: |-
+    607F1100962DDC00643
+    607F12106A00672FFFF

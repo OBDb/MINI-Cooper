@@ -1,0 +1,14 @@
+command_id: 6F1.660.22D10D|e=60,fc=1
+test_cases:
+- expected_values:
+    MINI_ODO1: 32300
+    MINI_ODO2: 32300
+  response: |-
+    660F1100B62D10D0000
+    660F1217E2C00007E2C
+- expected_values:
+    MINI_ODO1: 32348
+    MINI_ODO2: 32348
+  response: |-
+    660F1100B62D10D0000
+    660F1217E5C00007E5C
