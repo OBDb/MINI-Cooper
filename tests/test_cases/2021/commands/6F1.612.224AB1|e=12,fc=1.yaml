@@ -1,0 +1,11 @@
+command_id: 6F1.612.224AB1|e=12,fc=1
+test_cases:
+- expected_values:
+    MINI_VSS2: 0
+  response: 612F105624AB10000
+- expected_values:
+    MINI_VSS2: 12.78
+  response: 612F105624AB104FE
+- expected_values:
+    MINI_VSS2: 53.19
+  response: 612F105624AB114C7
