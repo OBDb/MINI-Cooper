@@ -24,3 +24,6 @@ test_cases:
 - expected_values:
     MINI_GEAR: 7
   response: 618F10562DA2E0703
+- expected_values:
+    MINI_GEAR: 8
+  response: 618F10562DA2E0803
