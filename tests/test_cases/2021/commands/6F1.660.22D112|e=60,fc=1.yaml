@@ -4,8 +4,8 @@ test_cases:
     MINI_AAT: -4
   response: 660F10562D112484A
 - expected_values:
-    MINI_AAT: 4.5
-  response: 660F10562D1125959
+    MINI_AAT: 1.5
+  response: 660F10562D1125354
 - expected_values:
     MINI_AAT: 23.5
   response: 660F10562D1127F8C
