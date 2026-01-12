@@ -9,6 +9,10 @@ test_cases:
     MINI_GEAR_SHIFT: REVERSE
   response: 618F10562DA2E0101
 - expected_values:
+    MINI_GEAR: 2
+    MINI_GEAR_SHIFT: NEUTRAL
+  response: 618F10562DA2E0202
+- expected_values:
     MINI_GEAR: 3
     MINI_GEAR_SHIFT: DRIVE
   response: 618F10562DA2E0303
