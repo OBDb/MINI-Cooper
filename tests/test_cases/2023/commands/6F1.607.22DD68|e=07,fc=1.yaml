@@ -1,11 +1,14 @@
 command_id: 6F1.607.22DD68|e=07,fc=1
 test_cases:
 - expected_values:
+    MINI_HVBAT_VOLT: 360.51
+  response: 607F10562DD688CD3
+- expected_values:
     MINI_HVBAT_VOLT: 360.99
   response: 607F10562DD688D03
 - expected_values:
+    MINI_HVBAT_VOLT: 365.82
+  response: 607F10562DD688EE6
+- expected_values:
     MINI_HVBAT_VOLT: 387.34
   response: 607F10562DD68974E
-- expected_values:
-    MINI_HVBAT_VOLT: 388.83
-  response: 607F10562DD6897E3
