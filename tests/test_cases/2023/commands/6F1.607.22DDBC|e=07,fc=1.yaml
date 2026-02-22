@@ -1,19 +1,19 @@
 command_id: 6F1.607.22DDBC|e=07,fc=1
 test_cases:
 - expected_values:
-    MINI_HVBAT_SOC: 53
-    MINI_HVBAT_SOC_MAX: 95.5
-    MINI_HVBAT_SOC_MIN: 11.5
-  response: |-
-    607F1100962DDBC0212
-    607F12103BB0073FFFF
-- expected_values:
     MINI_HVBAT_SOC: 55.4
     MINI_HVBAT_SOC_MAX: 96.8
     MINI_HVBAT_SOC_MIN: 11.5
   response: |-
     607F1100962DDBC022A
     607F12103C80073FFFF
+- expected_values:
+    MINI_HVBAT_SOC: 64
+    MINI_HVBAT_SOC_MAX: 95.5
+    MINI_HVBAT_SOC_MIN: 11.5
+  response: |-
+    607F1100962DDBC0280
+    607F12103BB0073FFFF
 - expected_values:
     MINI_HVBAT_SOC: 74.4
     MINI_HVBAT_SOC_MAX: 97
@@ -28,10 +28,3 @@ test_cases:
   response: |-
     607F1100962DDBC030E
     607F12103C70073FFFF
-- expected_values:
-    MINI_HVBAT_SOC: 82.2
-    MINI_HVBAT_SOC_MAX: 97.1
-    MINI_HVBAT_SOC_MIN: 11.5
-  response: |-
-    607F1100962DDBC0336
-    607F12103CB0073FFFF
