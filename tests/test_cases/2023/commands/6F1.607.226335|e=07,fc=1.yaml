@@ -6,6 +6,11 @@ test_cases:
     607F110076263350000
     607F1210060FFFFFFFF
 - expected_values:
+    MINI_HVBAT_SOH: 97
+  response: |-
+    607F110076263350000
+    607F1210061FFFFFFFF
+- expected_values:
     MINI_HVBAT_SOH: 98
   response: |-
     607F110076263350000
