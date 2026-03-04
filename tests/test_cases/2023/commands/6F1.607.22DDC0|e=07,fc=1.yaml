@@ -37,6 +37,12 @@ test_cases:
     607F1100962DDC0044D
     607F12104B00453FFFF
 - expected_values:
+    MINI_HVBAT_CT_MAX: 19.91
+    MINI_HVBAT_CT_MIN: 17.97
+  response: |-
+    607F1100962DDC00705
+    607F12107C70762FFFF
+- expected_values:
     MINI_HVBAT_CT_MAX: 21.98
     MINI_HVBAT_CT_MIN: 17.98
   response: |-
