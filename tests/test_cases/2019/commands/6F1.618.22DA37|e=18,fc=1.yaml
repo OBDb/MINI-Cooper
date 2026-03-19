@@ -18,14 +18,6 @@ test_cases:
     618F122000001B9FFFF
 - expected_values:
     MINI_TIME_D: 7
-    MINI_TIME_M: 111
-    MINI_TIME_S: 60
-  response: |-
-    618F1100F62DA37073C
-    618F1216FEB00005F46
-    618F122000001B9FFFF
-- expected_values:
-    MINI_TIME_D: 7
     MINI_TIME_M: 122
     MINI_TIME_S: 60
   response: |-
@@ -34,17 +26,33 @@ test_cases:
     618F122000001B9FFFF
 - expected_values:
     MINI_TIME_D: 7
-    MINI_TIME_M: 144
-    MINI_TIME_S: 60
-  response: |-
-    618F1100F62DA37073C
-    618F121903800005F46
-    618F122000001B9FFFF
-- expected_values:
-    MINI_TIME_D: 7
     MINI_TIME_M: 240
     MINI_TIME_S: 60
   response: |-
     618F1100F62DA37073C
     618F121F0AE00005F46
+    618F122000001B9FFFF
+- expected_values:
+    MINI_TIME_D: 7
+    MINI_TIME_M: 9
+    MINI_TIME_S: 61
+  response: |-
+    618F1100F62DA37073D
+    618F121099300005F46
+    618F122000001B9FFFF
+- expected_values:
+    MINI_TIME_D: 7
+    MINI_TIME_M: 31
+    MINI_TIME_S: 61
+  response: |-
+    618F1100F62DA37073D
+    618F1211FFA00005F46
+    618F122000001B9FFFF
+- expected_values:
+    MINI_TIME_D: 7
+    MINI_TIME_M: 64
+    MINI_TIME_S: 61
+  response: |-
+    618F1100F62DA37073D
+    618F121400500005F46
     618F122000001B9FFFF
