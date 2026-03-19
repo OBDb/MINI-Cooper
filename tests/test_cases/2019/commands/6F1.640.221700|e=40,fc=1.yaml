@@ -10,3 +10,18 @@ test_cases:
   response: |-
     640F110076217000001
     640F121A665FFFFFFFF
+- expected_values:
+    MINI_ODO_2: 108151
+  response: |-
+    640F110076217000001
+    640F121A677FFFFFFFF
+- expected_values:
+    MINI_ODO_2: 108161
+  response: |-
+    640F110076217000001
+    640F121A681FFFFFFFF
+- expected_values:
+    MINI_ODO_2: 108171
+  response: |-
+    640F110076217000001
+    640F121A68BFFFFFFFF
