@@ -1,0 +1,32 @@
+command_id: 6F1.660.22D10D|e=60,fc=1,f=2014-
+test_cases:
+- expected_values:
+    COOPER_ODO: 25032
+    COOPER_ODO_ALT: 25032
+  response: |-
+    660F1100B62D10D0000
+    660F12161C8000061C8
+- expected_values:
+    COOPER_ODO: 25137
+    COOPER_ODO_ALT: 25137
+  response: |-
+    660F1100B62D10D0000
+    660F121623100006231
+- expected_values:
+    COOPER_ODO: 32427
+    COOPER_ODO_ALT: 32427
+  response: |-
+    660F1100B62D10D0000
+    660F1217EAB00007EAB
+- expected_values:
+    COOPER_ODO: 35090
+    COOPER_ODO_ALT: 35090
+  response: |-
+    660F1100B62D10D0000
+    660F121891200008912
+- expected_values:
+    COOPER_ODO: 35117
+    COOPER_ODO_ALT: 35117
+  response: |-
+    660F1100B62D10D0000
+    660F121892D0000892D

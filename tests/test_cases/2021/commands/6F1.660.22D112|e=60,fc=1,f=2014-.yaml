@@ -1,0 +1,14 @@
+command_id: 6F1.660.22D112|e=60,fc=1,f=2014-
+test_cases:
+- expected_values:
+    COOPER_AAT: -4
+  response: 660F10562D112484A
+- expected_values:
+    COOPER_AAT: 1.5
+  response: 660F10562D1125354
+- expected_values:
+    COOPER_AAT: 11.5
+  response: 660F10562D1126794
+- expected_values:
+    COOPER_AAT: 28
+  response: 660F10562D1128888

@@ -1,4 +1,69 @@
 { "commands": [
-
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "4300"}, "freq": 1,
+  "signals": [
+    {"id": "COOPER_ET", "path": "Engine", "fmt": { "len": 8, "max": 287.7, "min": -54, "mul": 1.34, "add": -54, "unit": "fahrenheit" }, "name": "Engine temperature"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "4402"}, "freq": 1,
+  "signals": [
+    {"id": "COOPER_EOT", "path": "Engine", "fmt": { "len": 8, "max": 195, "min": -60, "add": -60, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "586F"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2018], "from": 2022 },
+  "signals": [
+    {"id": "COOPER_EOP", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Engine oil pressure"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "5AC3"}, "freq": 1,
+  "signals": [
+    {"id": "COOPER_FUEL_PRES", "path": "Fuel", "fmt": { "len": 16, "max": 170391, "mul": 2.6, "unit": "bars" }, "name": "Fuel pressure"}
+  ]},
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "dbg": true, "cmd": {"21": "0A"}, "freq": 1,
+  "signals": [
+    {"id": "COOPER_ATF_T", "path": "Engine", "fmt": { "len": 8, "max": 200, "min": -55, "add": -55, "unit": "celsius" }, "name": "Automatic transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"}
+  ]},
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA2E"}, "freq": 1, "filter": { "from": 2014 }, "dbgfilter": { "to": 2018, "from": 2022 },
+  "signals": [
+    {"id": "COOPER_GEAR_SHIFT", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
+          "0": { "description": "Park",    "value": "PARK" },
+          "1": { "description": "Reverse", "value": "REVERSE" },
+          "2": { "description": "Neutral", "value": "NEUTRAL" },
+          "3": { "description": "Drive",   "value": "DRIVE" }
+        }}
+    },
+    {"id": "COOPER_GEAR", "path": "Transmission", "name": "Drive mode", "fmt": {"bix": 8, "len": 8, "map": {
+          "3": { "description": "Drive", "value": "DRIVE" },
+          "5": { "description": "Sport", "value": "SPORT" }
+        }}
+    }
+  ]},
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DBE4"}, "freq": 0.25, "filter": { "from": 2014 }, "dbgfilter": { "to": 2018, "from": 2024 },
+  "signals": [
+    {"id": "COOPER_FL_SPD", "path": "Movement", "fmt": {           "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
+    {"id": "COOPER_FR_SPD", "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
+    {"id": "COOPER_RL_SPD", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
+    {"id": "COOPER_RR_SPD", "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
+  ]},
+{ "hdr": "6F1", "rax": "656", "eax": "56", "fcm1": true, "cmd": {"22": "DCDD"}, "freq": 5, "filter": { "from": 2014 }, "dbgfilter": { "to": 2020, "from": 2024 },
+  "signals": [
+    {"id": "COOPER_DOOR_DRIVER",         "path": "Doors",   "fmt": {           "len": 8, "max": 255, "unit": "scalar" }, "name": "Driver door open"},
+    {"id": "COOPER_DOOR_PASSENGER",      "path": "Doors",   "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "scalar" }, "name": "Passenger door open"},
+    {"id": "COOPER_DOOR_DRIVER_REAR",    "path": "Doors",   "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "scalar" }, "name": "Rear driver door open"},
+    {"id": "COOPER_DOOR_PASSENGER_REAR", "path": "Doors",   "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "scalar" }, "name": "Rear passenger door open"},
+    {"id": "COOPER_HOOD",                "path": "Doors",   "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "scalar" }, "name": "Hood open"},
+    {"id": "COOPER_TRUNK",               "path": "Doors",   "fmt": {"bix": 40, "len": 8, "max": 255, "unit": "scalar" }, "name": "Trunk open"},
+    {"id": "COOPER_REAR_WINDOW",         "path": "Windows", "fmt": {"bix": 48, "len": 8, "max": 255, "unit": "scalar" }, "name": "Rear window open"},
+    {"id": "COOPER_CENTRAL_LOCK",        "path": "Doors",   "fmt": {"bix": 56, "len": 8, "max": 255, "unit": "scalar" }, "name": "Locked",                   "description": "Overall lock state of the vehicle"}
+  ]},
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D107"}, "freq": 0.25, "filter": { "from": 2014 }, "dbgfilter": { "to": 2018, "from": 2024 },
+  "signals": [
+    {"id": "COOPER_VSS", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Speedometer vehicle speed"}
+  ]},
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D10D"}, "freq": 5, "filter": { "from": 2014 }, "dbgfilter": { "to": 2018, "from": 2024 },
+  "signals": [
+    {"id": "COOPER_ODO",     "path": "Trips", "fmt": {           "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer",              "suggestedMetric": "odometer"},
+    {"id": "COOPER_ODO_ALT", "path": "Trips", "fmt": {"bix": 32, "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer, alternative", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D112"}, "freq": 5, "filter": { "from": 2014 }, "dbgfilter": { "to": 2018, "from": 2024 },
+  "signals": [
+    {"id": "COOPER_AAT", "path": "Climate", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature"}
+  ]}
 ]
 }
