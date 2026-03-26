@@ -1,0 +1,10 @@
+command_id: 6F1.618.22DA37|e=18,fc=1
+test_cases:
+- expected_values:
+    MINI_TIME_D: 0
+    MINI_TIME_M: 30
+    MINI_TIME_S: 157
+  response: |-
+    618F1100F62DA37009D
+    618F1211EF80010CD29
+    618F1220330CF98FFFF
