@@ -34,6 +34,20 @@
         }}
     }
   ]},
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "dbg": true, "cmd": {"21": "01"}, "freq": 0.25,
+  "signals": [
+    {"id": "COOPER_FL_VSS_21", "path": "Tires", "fmt": {           "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front left wheel speed, service 21"},
+    {"id": "COOPER_FR_VSS_21", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front right wheel speed, service 21"},
+    {"id": "COOPER_RL_VSS_21", "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed, service 21"},
+    {"id": "COOPER_RR_VSS_21", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed, service 21"}
+  ]},
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "dbg": true, "cmd": {"21": "04"}, "freq": 0.25,
+  "signals": [
+    {"id": "COOPER_STEERING_WHEEL_ANGLE",      "path": "Tires",    "fmt": {           "len": 16, "max": 4095.875, "min": -4096,    "mul": 12.5, "div": 100, "sign": true, "unit": "degrees"                }, "name": "Steering wheel angle"},
+    {"id": "COOPER_LONGITUDINAL_ACCELERATION", "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 131.068,  "min": -131.072, "mul": 0.4,  "div": 100, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Longitudinal acceleration"},
+    {"id": "COOPER_LATERAL_ACCELERATION",      "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 131.068,  "min": -131.072, "mul": 0.4,  "div": 100, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Lateral acceleration"},
+    {"id": "COOPER_YAW_RATE",                  "path": "Engine",   "fmt": {"bix": 48, "len": 16, "max": 131.068,  "min": -131.072, "mul": 0.4,  "div": 100, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Yaw rate"}
+  ]},
 { "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DBE4"}, "freq": 0.25, "filter": { "from": 2014 }, "dbgfilter": { "to": 2018, "from": 2024 },
   "signals": [
     {"id": "COOPER_FL_VSS", "path": "Movement", "fmt": {           "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
