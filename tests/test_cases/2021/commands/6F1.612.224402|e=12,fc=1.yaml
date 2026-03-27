@@ -1,0 +1,8 @@
+command_id: 6F1.612.224402|e=12,fc=1
+test_cases:
+- expected_values:
+    COOPER_EOT: -60
+  response: 612F105624402004D
+- expected_values:
+    COOPER_EOT: -60
+  response: 612F10562440200C8
