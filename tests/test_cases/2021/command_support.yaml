@@ -66,6 +66,7 @@ supported_commands_by_ecu:
   - 7E0.0106:SHRTFT1
   - 7E0.0110:MAF
   - 7E0.015C:EOT
+  - 7E0.015E:FUEL_RATE
   "7E1":
   - 7E1.7E9.0104
   - 7E1.7E9.0105
@@ -99,4 +100,3 @@ unsupported_commands_by_ecu:
   - 7E0.0131:CLR_DIST
   - 7E0.0134:LAMBDA11_CURRENT,O2S11_CURRENT
   - 7E0.0144:EQ_RAT
-  - 7E0.015E:FUEL_RATE
