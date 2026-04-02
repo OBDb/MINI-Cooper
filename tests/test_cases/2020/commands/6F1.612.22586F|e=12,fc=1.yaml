@@ -10,5 +10,5 @@ test_cases:
     COOPER_EOP: 2.57
   response: 612F10562586F0A0A
 - expected_values:
-    COOPER_EOP: 5.17
-  response: 612F10562586F1432
+    COOPER_EOP: 5.451
+  response: 612F10562586F154B
