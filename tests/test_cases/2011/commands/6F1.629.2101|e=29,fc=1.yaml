@@ -1,0 +1,10 @@
+command_id: 6F1.629.2101|e=29,fc=1
+test_cases:
+- expected_values:
+    COOPER_FL_VSS_21: 0
+    COOPER_FR_VSS_21: 0
+    COOPER_RL_VSS_21: 0
+    COOPER_RR_VSS_21: 0
+  response: |-
+    629F110086101000000
+    629F121000000FFFFFF
