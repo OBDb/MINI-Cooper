@@ -1,13 +1,13 @@
 { "commands": [
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4300"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4300"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018], "from": 2022 },
   "signals": [
     {"id": "COOPER_ET", "path": "Engine", "fmt": { "len": 8, "max": 287.7, "min": -54, "mul": 1.34, "add": -54, "unit": "fahrenheit" }, "name": "Engine temperature"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4402"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4402"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018], "from": 2022 },
   "signals": [
     {"id": "COOPER_EOT", "path": "Engine", "fmt": { "len": 8, "max": 195, "min": -60, "add": -60, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "586F"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2018], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "586F"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2014, 2015, 2016, 2017, 2018], "from": 2022 },
   "signals": [
     {"id": "COOPER_EOP", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Engine oil pressure"}
   ]},
@@ -15,7 +15,7 @@
   "signals": [
     {"id": "COOPER_FUEL_PRES", "path": "Fuel", "fmt": { "len": 16, "max": 170391, "mul": 2.6, "unit": "bars" }, "name": "Fuel pressure"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "dbg": true, "cmd": {"21": "0A"}, "freq": 1,
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"21": "0A"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "COOPER_ATF_T", "path": "Engine", "fmt": { "len": 8, "max": 200, "min": -55, "add": -55, "unit": "celsius" }, "name": "Automatic transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
@@ -34,14 +34,14 @@
         }}
     }
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "dbg": true, "cmd": {"21": "01"}, "freq": 0.25,
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"21": "01"}, "freq": 0.25, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "COOPER_FL_VSS_21", "path": "Tires", "fmt": {           "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front left wheel speed, service 21"},
     {"id": "COOPER_FR_VSS_21", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front right wheel speed, service 21"},
     {"id": "COOPER_RL_VSS_21", "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed, service 21"},
     {"id": "COOPER_RR_VSS_21", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed, service 21"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "dbg": true, "cmd": {"21": "04"}, "freq": 0.25,
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"21": "04"}, "freq": 0.25, "dbgfilter": { "to": 2010, "from": 2012 },
   "signals": [
     {"id": "COOPER_STEERING_WHEEL_ANGLE",      "path": "Tires",    "fmt": {           "len": 16, "max": 4095.875, "min": -4096,    "mul": 12.5, "div": 100, "sign": true, "unit": "degrees"                }, "name": "Steering wheel angle"},
     {"id": "COOPER_LONGITUDINAL_ACCELERATION", "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 131.068,  "min": -131.072, "mul": 0.4,  "div": 100, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Longitudinal acceleration"},
