@@ -17,7 +17,10 @@ supported_commands_by_ecu:
   - 7DF.0104
   - 7DF.0105
   - 7DF.0106
+  - 7DF.0107
+  - 7DF.010B
   - 7DF.010C
+  - 7DF.010E
   - 7DF.010F
   - 7DF.0110
   - 7DF.0123
@@ -30,6 +33,8 @@ supported_commands_by_ecu:
   - 7DF.0143
   - 7DF.0144
   - 7DF.014C
+  - 7DF.0151
+  - 7DF.0156
   - 7DF.015C
   - 7DF.0162
   - 7DF.0163
@@ -69,6 +74,8 @@ supported_commands_by_ecu:
   - 7E7.7EF.0104
   - 7E7.7EF.0105
   - 7E7.7EF.010C
+  - 7E7.7EF.0111
+  - 7E7.7EF.0142
 unsupported_commands_by_ecu:
   "6F1":
   - 6F1.607.226335
@@ -105,9 +112,11 @@ unsupported_commands_by_ecu:
   - 7E0.0107:LONGFT1
   - 7E0.010B:MAP
   - 7E0.010C:RPM
+  - 7E0.010D:VSS
   - 7E0.010E:SPARKADV
   - 7E0.010F:IAT
   - 7E0.0110:MAF
+  - 7E0.0111:TP
   - 7E0.0123:FRP
   - 7E0.012E:EVAP_PCT
   - 7E0.012F:FLI
@@ -115,8 +124,10 @@ unsupported_commands_by_ecu:
   - 7E0.0133:BARO
   - 7E0.0134:LAMBDA11_CURRENT,O2S11_CURRENT
   - 7E0.013C:CATEMP11
+  - 7E0.0142:VPWR
   - 7E0.0143:LOAD_ABS
   - 7E0.0144:EQ_RAT
+  - 7E0.0147:TP_B
   - 7E0.014C:TAC_PCT
   - 7E0.0151:FUEL_TYP
   - 7E0.0156:LGSO2FT1
@@ -124,7 +135,10 @@ unsupported_commands_by_ecu:
   - 7E0.0162:TQ_ACT
   - 7E0.0163:TQ_REF
   - 7E0.018E:TQ_FR
+  - 7E0.01A6:ODO
   "7E1":
   - 7E1.7E9.0104
   - 7E1.7E9.0105
   - 7E1.7E9.010C
+  - 7E1.7E9.0111
+  - 7E1.7E9.0142
