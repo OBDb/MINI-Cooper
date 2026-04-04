@@ -1,33 +1,15 @@
 command_id: 6F1.618.22DA2E|e=18,fc=1,f=2014-
 test_cases:
 - expected_values:
+    COOPER_GEAR_SHIFT: REVERSE
+  response: 618F10462DA2E01
+- expected_values:
     COOPER_GEAR_SHIFT: PARK
   response: 618F10562DA2E0000
-- expected_values:
-    COOPER_GEAR_SHIFT: REVERSE
-  response: 618F10562DA2E0101
 - expected_values:
     COOPER_GEAR: DRIVE
     COOPER_GEAR_SHIFT: DRIVE
   response: 618F10562DA2E0303
-- expected_values:
-    COOPER_GEAR: DRIVE
-  response: 618F10562DA2E0403
-- expected_values:
-    COOPER_GEAR: DRIVE
-  response: 618F10562DA2E0503
-- expected_values:
-    COOPER_GEAR: DRIVE
-  response: 618F10562DA2E0603
-- expected_values:
-    COOPER_GEAR: DRIVE
-  response: 618F10562DA2E0703
-- expected_values:
-    COOPER_GEAR: DRIVE
-  response: 618F10562DA2E0803
-- expected_values:
-    COOPER_GEAR: DRIVE
-  response: 618F10562DA2E0903
 - expected_values:
     COOPER_GEAR: DRIVE
   response: 618F10562DA2E1003
