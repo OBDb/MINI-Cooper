@@ -1,32 +1,8 @@
 command_id: 6F1.618.210A|e=18,fc=1
 test_cases:
 - expected_values:
-    COOPER_ATF_T: 49
-  response: 618F103610A68
-- expected_values:
-    COOPER_ATF_T: 51
-  response: 618F103610A6A
-- expected_values:
-    COOPER_ATF_T: 53
-  response: 618F103610A6C
-- expected_values:
-    COOPER_ATF_T: 54
-  response: 618F103610A6D
-- expected_values:
-    COOPER_ATF_T: 55
-  response: 618F103610A6E
-- expected_values:
-    COOPER_ATF_T: 56
-  response: 618F103610A6F
-- expected_values:
-    COOPER_ATF_T: 57
-  response: 618F103610A70
-- expected_values:
-    COOPER_ATF_T: 58
-  response: 618F103610A71
-- expected_values:
-    COOPER_ATF_T: 59
-  response: 618F103610A72
+    COOPER_ATF_T: 21
+  response: 618F103610A4C
 - expected_values:
     COOPER_ATF_T: 60
   response: 618F103610A73
