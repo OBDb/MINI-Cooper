@@ -1,8 +1,8 @@
 command_id: 6F1.618.210A|e=18,fc=1
 test_cases:
 - expected_values:
-    COOPER_ATF_T: 18
-  response: 618F103610A49
+    COOPER_ATF_T: 17
+  response: 618F103610A48
 - expected_values:
     COOPER_ATF_T: 102
   response: 618F103610A9D
