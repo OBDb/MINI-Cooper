@@ -4,5 +4,5 @@ test_cases:
     COOPER_ATF_T: 18
   response: 618F103610A49
 - expected_values:
-    COOPER_ATF_T: 60
-  response: 618F103610A73
+    COOPER_ATF_T: 102
+  response: 618F103610A9D
