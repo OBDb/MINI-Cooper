@@ -4,5 +4,5 @@ test_cases:
     COOPER_EOT: 13
   response: 612F10462440249
 - expected_values:
-    COOPER_EOT: 104
-  response: 612F104624402A4
+    COOPER_EOT: 115
+  response: 612F104624402AF
