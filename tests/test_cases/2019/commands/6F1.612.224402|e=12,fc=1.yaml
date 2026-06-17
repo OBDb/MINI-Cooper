@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     COOPER_EOT: -60
   response: 612F1056244020085
+- expected_values:
+    COOPER_EOT: -60
+  response: 612F10562440200CE
