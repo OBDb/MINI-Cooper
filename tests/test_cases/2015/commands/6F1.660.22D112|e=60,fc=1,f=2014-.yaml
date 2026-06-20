@@ -15,3 +15,12 @@ test_cases:
 - expected_values:
     COOPER_AAT: 17
   response: 660F10562D1127274
+- expected_values:
+    COOPER_AAT: 35.5
+  response: 660F10562D1129798
+- expected_values:
+    COOPER_AAT: 36
+  response: 660F10562D1129898
+- expected_values:
+    COOPER_AAT: 36.5
+  response: 660F10562D1129999
