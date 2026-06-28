@@ -4,5 +4,5 @@ test_cases:
     COOPER_ET: 133.6
   response: 612F1046243008C
 - expected_values:
-    COOPER_ET: 168.44
-  response: 612F104624300A6
+    COOPER_ET: 175.14
+  response: 612F104624300AB
