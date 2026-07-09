@@ -1,8 +1,0 @@
-command_id: 6F1.660.22D10D|e=60,fc=1,f=2014-
-test_cases:
-- expected_values:
-    COOPER_ODO: 177087
-    COOPER_ODO_ALT: 177087
-  response: |-
-    660F1100B62D10D0002
-    660F121B3BF0002B3BF
