@@ -7,5 +7,8 @@ test_cases:
     COOPER_ET: -37.92
   response: 612F1056243000CFC
 - expected_values:
+    COOPER_ET: -36.58
+  response: 612F1056243000D02
+- expected_values:
     COOPER_ET: -35.24
   response: 612F1056243000E04
