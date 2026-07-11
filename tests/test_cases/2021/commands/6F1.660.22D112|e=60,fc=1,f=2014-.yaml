@@ -7,8 +7,8 @@ test_cases:
     COOPER_AAT: 1.5
   response: 660F10562D1125354
 - expected_values:
-    COOPER_AAT: 11.5
-  response: 660F10562D1126794
+    COOPER_AAT: 29.5
+  response: 660F10562D1128B9A
 - expected_values:
-    COOPER_AAT: 28
-  response: 660F10562D1128888
+    COOPER_AAT: 30
+  response: 660F10562D1128C8E
