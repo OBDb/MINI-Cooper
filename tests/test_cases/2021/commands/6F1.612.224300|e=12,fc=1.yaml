@@ -11,4 +11,4 @@ test_cases:
   response: 612F1056243000D02
 - expected_values:
     COOPER_ET: -35.24
-  response: 612F1056243000E04
+  response: 612F1056243000E02
