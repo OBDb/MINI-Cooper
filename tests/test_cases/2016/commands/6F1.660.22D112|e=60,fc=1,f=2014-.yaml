@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     COOPER_AAT: 19
   response: 660F10562D112768E
+- expected_values:
+    COOPER_AAT: 23
+  response: 660F10562D1127E89
