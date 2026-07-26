@@ -4,5 +4,29 @@ test_cases:
     COOPER_ET: 101.44
   response: 612F10462430074
 - expected_values:
+    COOPER_ET: 108.14
+  response: 612F10462430079
+- expected_values:
+    COOPER_ET: 117.52
+  response: 612F10462430080
+- expected_values:
+    COOPER_ET: 126.9
+  response: 612F10462430087
+- expected_values:
+    COOPER_ET: 133.6
+  response: 612F1046243008C
+- expected_values:
     COOPER_ET: 134.94
   response: 612F1046243008D
+- expected_values:
+    COOPER_ET: 137.62
+  response: 612F1046243008F
+- expected_values:
+    COOPER_ET: 144.32
+  response: 612F10462430094
+- expected_values:
+    COOPER_ET: 148.34
+  response: 612F10462430097
+- expected_values:
+    COOPER_ET: 152.36
+  response: 612F1046243009A
