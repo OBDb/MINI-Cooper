@@ -7,5 +7,5 @@ test_cases:
     COOPER_VSS: 51.1
   response: 660F10562D10701FF
 - expected_values:
-    COOPER_VSS: 128.7
-  response: 660F10562D1070507
+    COOPER_VSS: 128
+  response: 660F10562D1070500
