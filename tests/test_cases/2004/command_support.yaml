@@ -1,8 +1,8 @@
 model_year: 2004
 unsupported_commands_by_ecu:
   "6F1":
-  - 6F1.612.224300|e=12,fc=1:COOPER_ET
-  - 6F1.612.224402|e=12,fc=1:COOPER_EOT
+  - 6F1.612.224300|e=12,fc=1,f=-2018:COOPER_ET_8
+  - 6F1.612.224402|e=12,fc=1,f=-2013:COOPER_EOT_8
   - 6F1.612.22586F|e=12,fc=1:COOPER_EOP
   - 6F1.612.225AC3|e=12,fc=1:COOPER_FUEL_PRES
   - 6F1.618.210A|e=18,fc=1:COOPER_ATF_T
