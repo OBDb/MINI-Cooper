@@ -1,8 +1,8 @@
-command_id: 6F1.612.224402|e=12,fc=1
+command_id: 6F1.612.224402|e=12,fc=1,f=-2013
 test_cases:
 - expected_values:
-    COOPER_EOT: 13
+    COOPER_EOT_8: 13
   response: 612F10462440249
 - expected_values:
-    COOPER_EOT: 115
+    COOPER_EOT_8: 115
   response: 612F104624402AF

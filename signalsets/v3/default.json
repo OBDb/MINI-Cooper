@@ -1,11 +1,19 @@
 { "commands": [
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4300"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2015, 2017, 2018], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4300"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2015, 2017] },
   "signals": [
-    {"id": "COOPER_ET", "path": "Engine", "fmt": { "len": 8, "max": 287.7, "min": -54, "mul": 1.34, "add": -54, "unit": "fahrenheit" }, "name": "Engine temperature"}
+    {"id": "COOPER_ET_8", "path": "Engine", "fmt": { "len": 8, "max": 287.7, "min": -54, "mul": 1.34, "add": -54, "unit": "fahrenheit" }, "name": "Engine temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4402"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2015, 2017, 2018], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4300"}, "freq": 1, "filter": { "from": 2019 }, "dbgfilter": { "from": 2022 },
   "signals": [
-    {"id": "COOPER_EOT", "path": "Engine", "fmt": { "len": 8, "max": 195, "min": -60, "add": -60, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
+    {"id": "COOPER_ET", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273.15, "div": 10, "add": -273.15, "unit": "celsius" }, "name": "Engine temperature", "suggestedMetric": "engineCoolantTemperature"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4402"}, "freq": 1, "filter": { "to": 2013 }, "dbgfilter": { "to": 2010, "years": [2012] },
+  "signals": [
+    {"id": "COOPER_EOT_8", "path": "Engine", "fmt": { "len": 8, "max": 195, "min": -60, "add": -60, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4402"}, "freq": 1, "filter": { "from": 2014 }, "dbgfilter": { "years": [2015, 2017, 2018], "from": 2022 },
+  "signals": [
+    {"id": "COOPER_EOT", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "586F"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2014, 2015, 2017, 2018], "from": 2022 },
   "signals": [
