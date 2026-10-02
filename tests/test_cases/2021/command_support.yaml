@@ -25,7 +25,9 @@ supported_commands_by_ecu:
   - 7DF.0104
   - 7DF.0105
   - 7DF.0106
+  - 7DF.010C
   - 7DF.0110
+  - 7DF.0111
   - 7DF.012F
   - 7DF.0131
   - 7DF.0134
@@ -74,6 +76,7 @@ supported_commands_by_ecu:
   - 7E1.7E9.0104
   - 7E1.7E9.0105
   - 7E1.7E9.010C
+  - 7E1.7E9.0111
 unsupported_commands_by_ecu:
   "6F1":
   - 6F1.22D031
@@ -101,6 +104,14 @@ unsupported_commands_by_ecu:
   - 7E0.0104:LOAD_PCT
   - 7E0.0105:ECT
   - 7E0.010C:RPM
+  - 7E0.010D:VSS
+  - 7E0.0111:TP
   - 7E0.012F:FLI
   - 7E0.0134:LAMBDA11_CURRENT,O2S11_CURRENT
+  - 7E0.0142:VPWR
   - 7E0.0143:LOAD_ABS
+  - 7E0.0147:TP_B
+  - 7E0.01A6:ODO
+  "7E1":
+  - 7E1.7E9.010D
+  - 7E1.7E9.0142
