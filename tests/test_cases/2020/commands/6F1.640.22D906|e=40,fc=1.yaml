@@ -1,0 +1,6 @@
+command_id: 6F1.640.22D906|e=40,fc=1
+test_cases:
+- expected_values:
+    COOPER_AC_COMP_PWM: 0
+    COOPER_AC_COMP_STAT: 0
+  response: 640F10662D906000000
