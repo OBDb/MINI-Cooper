@@ -1,0 +1,16 @@
+command_id: 6F1.660.22D129|e=60,fc=1
+test_cases:
+- expected_values:
+    COOPER_BC_AVG_CONS: 15.7
+    COOPER_BC_AVG_SPD: 33.4
+    COOPER_BC_RANGE: 54
+  response: |-
+    660F1100B62D129009D
+    660F1210D0C0000021C
+- expected_values:
+    COOPER_BC_AVG_CONS: 15.7
+    COOPER_BC_AVG_SPD: 33.4
+    COOPER_BC_RANGE: 55
+  response: |-
+    660F1100B62D129009D
+    660F1210D0CFFFD0226

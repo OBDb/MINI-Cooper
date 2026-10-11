@@ -1,0 +1,22 @@
+command_id: 6F1.612.22DE9C|e=12,fc=1
+test_cases:
+- expected_values:
+    COOPER_APP: 0
+  response: |-
+    612F1100962DE9C0092
+    612F12100490000FFFF
+- expected_values:
+    COOPER_APP: 0
+  response: |-
+    612F1100962DE9C0092
+    612F121004A0000FFFF
+- expected_values:
+    COOPER_APP: 8.4375
+  response: |-
+    612F1100962DE9C00E5
+    612F12100720087FFFF
+- expected_values:
+    COOPER_APP: 14.625
+  response: |-
+    612F1100962DE9C010D
+    612F121008600EAFFFF

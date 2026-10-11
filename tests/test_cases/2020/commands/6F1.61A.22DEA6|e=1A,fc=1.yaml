@@ -1,0 +1,50 @@
+command_id: 6F1.61A.22DEA6|e=1A,fc=1
+test_cases:
+- expected_values:
+    COOPER_EM_T_1: 17.5656
+    COOPER_EM_T_2: 17.8776
+  response: |-
+    61AF1100762DEA60466
+    61AF121047AFFFFFFFF
+- expected_values:
+    COOPER_EM_T_1: 18.0024
+    COOPER_EM_T_2: 18.33
+  response: |-
+    61AF1100762DEA60482
+    61AF1210497FFFFFFFF
+- expected_values:
+    COOPER_EM_T_1: 18.5172
+    COOPER_EM_T_2: 18.8604
+  response: |-
+    61AF1100762DEA604A3
+    61AF12104B9FFFFFFFF
+- expected_values:
+    COOPER_EM_T_1: 19.11
+    COOPER_EM_T_2: 19.4532
+  response: |-
+    61AF1100762DEA604C9
+    61AF12104DFFFFFFFFF
+- expected_values:
+    COOPER_EM_T_1: 19.9056
+    COOPER_EM_T_2: 20.202
+  response: |-
+    61AF1100762DEA604FC
+    61AF121050FFFFFFFFF
+- expected_values:
+    COOPER_EM_T_1: 19.9368
+    COOPER_EM_T_2: 20.2644
+  response: |-
+    61AF1100762DEA604FE
+    61AF1210513FFFFFFFF
+- expected_values:
+    COOPER_EM_T_1: 20.1084
+    COOPER_EM_T_2: 20.358
+  response: |-
+    61AF1100762DEA60509
+    61AF1210519FFFFFFFF
+- expected_values:
+    COOPER_EM_T_1: 20.5296
+    COOPER_EM_T_2: 20.6856
+  response: |-
+    61AF1100762DEA60524
+    61AF121052EFFFFFFFF
