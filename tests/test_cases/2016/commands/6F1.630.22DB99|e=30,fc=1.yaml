@@ -4,8 +4,8 @@ test_cases:
     COOPER_STEER_TQ: 0.99219
   response: 630F10662DB99007F00
 - expected_values:
-    COOPER_STEER_TQ: 1.89062
-  response: 630F10662DB9900F200
-- expected_values:
     COOPER_STEER_TQ: -1.79688
   response: 630F10662DB99FF1A00
+- expected_values:
+    COOPER_STEER_TQ: -0.07812
+  response: 630F10662DB99FFF600
