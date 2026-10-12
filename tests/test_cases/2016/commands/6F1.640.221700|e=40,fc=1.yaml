@@ -10,3 +10,8 @@ test_cases:
   response: |-
     640F110076217000002
     640F121D42DFFFFFFFF
+- expected_values:
+    COOPER_ODO_2: 185400
+  response: |-
+    640F110076217000002
+    640F121D438FFFFFFFF

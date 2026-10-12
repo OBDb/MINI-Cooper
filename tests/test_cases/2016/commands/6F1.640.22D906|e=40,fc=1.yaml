@@ -17,6 +17,18 @@ test_cases:
     COOPER_AC_COMP_STAT: 1
   response: 640F10662D906000125
 - expected_values:
+    COOPER_AC_COMP_PWM: 38
+    COOPER_AC_COMP_STAT: 1
+  response: 640F10662D906000126
+- expected_values:
     COOPER_AC_COMP_PWM: 41
     COOPER_AC_COMP_STAT: 1
   response: 640F10662D906000129
+- expected_values:
+    COOPER_AC_COMP_PWM: 44
+    COOPER_AC_COMP_STAT: 1
+  response: 640F10662D90600012C
+- expected_values:
+    COOPER_AC_COMP_PWM: 53
+    COOPER_AC_COMP_STAT: 1
+  response: 640F10662D906000135
