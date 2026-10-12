@@ -1,0 +1,6 @@
+command_id: 6F1.678.22D91A|e=78,fc=1
+test_cases:
+- expected_values:
+    COOPER_AIR_DIST_L: 63
+    COOPER_AIR_DIST_R: 63
+  response: 678F10562D91A3F3F

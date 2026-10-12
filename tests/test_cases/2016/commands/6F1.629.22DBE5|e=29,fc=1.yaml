@@ -1,0 +1,14 @@
+command_id: 6F1.629.22DBE5|e=29,fc=1
+test_cases:
+- expected_values:
+    COOPER_BRAKE_P: 8.2
+  response: |-
+    629F1100F62DBE50052
+    629F121000000000000
+    629F12200000000FFFF
+- expected_values:
+    COOPER_BRAKE_P: -0.4
+  response: |-
+    629F1100F62DBE5FFFC
+    629F121000000000000
+    629F12200000000FFFF
