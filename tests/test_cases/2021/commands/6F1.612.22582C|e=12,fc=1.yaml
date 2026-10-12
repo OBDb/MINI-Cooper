@@ -1,0 +1,17 @@
+command_id: 6F1.612.22582C|e=12,fc=1
+test_cases:
+- expected_values:
+    COOPER_LAMBDA_2: 0.89062
+  response: 612F10562582C0E40
+- expected_values:
+    COOPER_LAMBDA_2: 0.99976
+  response: 612F10562582C0FFF
+- expected_values:
+    COOPER_LAMBDA_2: 1
+  response: 612F10562582C1000
+- expected_values:
+    COOPER_LAMBDA_2: 2.48535
+  response: 612F10562582C27C4
+- expected_values:
+    COOPER_LAMBDA_2: null
+  response: 612F10562582CFFFF

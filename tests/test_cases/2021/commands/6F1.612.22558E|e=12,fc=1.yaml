@@ -1,0 +1,42 @@
+command_id: 6F1.612.22558E|e=12,fc=1
+test_cases:
+- expected_values:
+    COOPER_ODO_DME: 53641
+  response: |-
+    612F1100762558E0000
+    612F121D189FFFFFFFF
+- expected_values:
+    COOPER_ODO_DME: 53642
+  response: |-
+    612F1100762558E0000
+    612F121D18AFFFFFFFF
+- expected_values:
+    COOPER_ODO_DME: 53643
+  response: |-
+    612F1100762558E0000
+    612F121D18BFFFFFFFF
+- expected_values:
+    COOPER_ODO_DME: 53644
+  response: |-
+    612F1100762558E0000
+    612F121D18CFFFFFFFF
+- expected_values:
+    COOPER_ODO_DME: 53645
+  response: |-
+    612F1100762558E0000
+    612F121D18DFFFFFFFF
+- expected_values:
+    COOPER_ODO_DME: 53646
+  response: |-
+    612F1100762558E0000
+    612F121D18EFFFFFFFF
+- expected_values:
+    COOPER_ODO_DME: 53647
+  response: |-
+    612F1100762558E0000
+    612F121D18FFFFFFFFF
+- expected_values:
+    COOPER_ODO_DME: 53648
+  response: |-
+    612F1100762558E0000
+    612F121D190FFFFFFFF

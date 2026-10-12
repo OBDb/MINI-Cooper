@@ -1,0 +1,14 @@
+command_id: 6F1.612.224A4A|e=12,fc=1
+test_cases:
+- expected_values:
+    COOPER_IGN_TIMING_2: 2.8
+  response: 612F105624A4A001C
+- expected_values:
+    COOPER_IGN_TIMING_2: 22
+  response: 612F105624A4A00DC
+- expected_values:
+    COOPER_IGN_TIMING_2: 26
+  response: 612F105624A4A0104
+- expected_values:
+    COOPER_IGN_TIMING_2: -9.5
+  response: 612F105624A4AFFA1
