@@ -1,0 +1,29 @@
+command_id: 6F1.612.22580F|e=12,fc=1
+test_cases:
+- expected_values:
+    COOPER_IAT_DME: 16.5
+  response: 612F10462580F56
+- expected_values:
+    COOPER_IAT_DME: 17.25
+  response: 612F10462580F57
+- expected_values:
+    COOPER_IAT_DME: 18
+  response: 612F10462580F58
+- expected_values:
+    COOPER_IAT_DME: 18.75
+  response: 612F10462580F59
+- expected_values:
+    COOPER_IAT_DME: 19.5
+  response: 612F10462580F5A
+- expected_values:
+    COOPER_IAT_DME: 21
+  response: 612F10462580F5C
+- expected_values:
+    COOPER_IAT_DME: 21.75
+  response: 612F10462580F5D
+- expected_values:
+    COOPER_IAT_DME: 22.5
+  response: 612F10462580F5E
+- expected_values:
+    COOPER_IAT_DME: 23.25
+  response: 612F10462580F5F

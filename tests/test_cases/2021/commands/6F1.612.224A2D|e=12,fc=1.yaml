@@ -1,0 +1,14 @@
+command_id: 6F1.612.224A2D|e=12,fc=1
+test_cases:
+- expected_values:
+    COOPER_MAP: 89.01562
+  response: 612F105624A2D2C82
+- expected_values:
+    COOPER_MAP: 91.94531
+  response: 612F105624A2D2DF9
+- expected_values:
+    COOPER_MAP: 92.00781
+  response: 612F105624A2D2E01
+- expected_values:
+    COOPER_MAP: 100.27344
+  response: 612F105624A2D3223
