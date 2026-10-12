@@ -463,11 +463,11 @@
     {"id": "COOPER_RL_VSS", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
     {"id": "COOPER_RR_VSS", "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DBE5"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DBE5"}, "freq": 0.25, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "COOPER_BRAKE_P", "path": "Control", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "bars" }, "name": "Brake pressure"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC98"}, "freq": 15, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC98"}, "freq": 15, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "COOPER_TPMS_POS_FL", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                                         "unit": "scalar"  },               "name": "Front left tire sensor position", "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
     {"id": "COOPER_TP_FL",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                         "name": "Front left tire pressure",                                      "suggestedMetric": "frontLeftTirePressure"},
@@ -475,7 +475,7 @@
     {"id": "COOPER_TP_SET_FL",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                         "name": "Front left tire pressure, set point"},
     {"id": "COOPER_TPMS_BAT_FL", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                           "unit": "scalar" },                                         "name": "Front left tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC99"}, "freq": 15, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC99"}, "freq": 15, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "COOPER_TPMS_POS_FR", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                                         "unit": "scalar"  },               "name": "Front right tire sensor position", "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
     {"id": "COOPER_TP_FR",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                          "name": "Front right tire pressure",                                     "suggestedMetric": "frontRightTirePressure"},
@@ -483,7 +483,7 @@
     {"id": "COOPER_TP_SET_FR",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                          "name": "Front right tire pressure, set point"},
     {"id": "COOPER_TPMS_BAT_FR", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                           "unit": "scalar" },                                          "name": "Front right tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC9A"}, "freq": 15, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC9A"}, "freq": 15, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "COOPER_TPMS_POS_RL", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                                         "unit": "scalar"  },               "name": "Rear left tire sensor position", "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
     {"id": "COOPER_TP_RL",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                        "name": "Rear left tire pressure",                                       "suggestedMetric": "rearLeftTirePressure"},
@@ -491,7 +491,7 @@
     {"id": "COOPER_TP_SET_RL",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                        "name": "Rear left tire pressure, set point"},
     {"id": "COOPER_TPMS_BAT_RL", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                           "unit": "scalar" },                                        "name": "Rear left tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC9B"}, "freq": 15, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC9B"}, "freq": 15, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "COOPER_TPMS_POS_RR", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                                         "unit": "scalar"  },               "name": "Rear right tire sensor position", "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
     {"id": "COOPER_TP_RR",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                         "name": "Rear right tire pressure",                                      "suggestedMetric": "rearRightTirePressure"},
@@ -499,19 +499,19 @@
     {"id": "COOPER_TP_SET_RR",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                         "name": "Rear right tire pressure, set point"},
     {"id": "COOPER_TPMS_BAT_RR", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                           "unit": "scalar" },                                         "name": "Rear right tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "630", "eax": "30", "fcm1": true, "cmd": {"22": "DB99"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "6F1", "rax": "630", "eax": "30", "fcm1": true, "cmd": {"22": "DB99"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "COOPER_STEER_TQ", "path": "Engine", "fmt": { "len": 16, "max": 255, "min": -256, "div": 128, "sign": true, "unit": "newtonMeters" }, "name": "Steering torque"}
   ]},
-{ "hdr": "6F1", "rax": "640", "eax": "40", "fcm1": true, "cmd": {"22": "1700"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "640", "eax": "40", "fcm1": true, "cmd": {"22": "1700"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2022], "from": 2024 },
   "signals": [
     {"id": "COOPER_ODO_2", "path": "Trips", "fmt": { "len": 32, "max": 1000000, "unit": "kilometers" }, "name": "Odometer variant"}
   ]},
-{ "hdr": "6F1", "rax": "640", "eax": "40", "fcm1": true, "cmd": {"22": "D130"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "6F1", "rax": "640", "eax": "40", "fcm1": true, "cmd": {"22": "D130"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "COOPER_PARK_BRAKE", "path": "Control", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "Parking brake applied"}
   ]},
-{ "hdr": "6F1", "rax": "640", "eax": "40", "fcm1": true, "cmd": {"22": "D906"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "6F1", "rax": "640", "eax": "40", "fcm1": true, "cmd": {"22": "D906"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "COOPER_AC_COMP_STAT", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "scalar"  }, "name": "Air conditioning compressor status"},
     {"id": "COOPER_AC_COMP_PWM",  "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "percent" }, "name": "Air conditioning compressor PWM"}
@@ -542,7 +542,7 @@
     {"id": "COOPER_ODO",     "path": "Trips", "fmt": {           "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer",              "suggestedMetric": "odometer"},
     {"id": "COOPER_ODO_ALT", "path": "Trips", "fmt": {"bix": 32, "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer, alternative", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D111"}, "freq": 5, "filter": { "to": 2006, "from": 2013 }, "dbgfilter": { "to": 2018, "from": 2024 },
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D111"}, "freq": 5, "filter": { "to": 2006, "from": 2013 }, "dbgfilter": { "to": 2015, "years": [2017, 2018], "from": 2024 },
   "signals": [
     {"id": "COOPER_RANGE_E_CUR", "path": "Trips", "fmt": {           "len": 16, "max": 6553.5, "div": 10,                 "nullmax": 6553.5, "unit": "kilometers"    }, "name": "Current electric range",       "suggestedMetric": "electricRange",        "description": "Current estimated electric range"},
     {"id": "COOPER_RANGE_E_MAX", "path": "Trips", "fmt": {"bix": 16, "len": 16, "max": 6553.5, "div": 10,                 "nullmax": 6553.5, "unit": "kilometers"    }, "name": "Maximum electric range"},
@@ -555,17 +555,17 @@
   "signals": [
     {"id": "COOPER_AAT", "path": "Climate", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D129"}, "freq": 30, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D129"}, "freq": 30, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "COOPER_BC_AVG_CONS", "path": "Engine", "fmt": {           "len": 16, "max": 6553, "div": 10,  "unit": "kilowattHoursPer100Kilometers" }, "name": "Trip computer average consumption"},
     {"id": "COOPER_BC_AVG_SPD",  "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 655,  "div": 100, "unit": "kilometersPerHour"             }, "name": "Trip computer average speed"},
     {"id": "COOPER_BC_RANGE",    "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 6553, "div": 10,  "unit": "kilometers"                    }, "name": "Trip computer range"}
   ]},
-{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D12A"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D12A"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "COOPER_CONS_KWH_100KM", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "scalar" }, "name": "Consumption, kwh/100km"}
   ]},
-{ "hdr": "6F1", "rax": "663", "eax": "63", "fcm1": true, "dbg": true, "cmd": {"22": "D030"}, "freq": 1,
+{ "hdr": "6F1", "rax": "663", "eax": "63", "fcm1": true, "cmd": {"22": "D030"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "COOPER_NBT_WHL_SPD_1", "path": "Engine", "fmt": {           "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilometersPerHour" }, "name": "Wheel sensor speed 1"},
     {"id": "COOPER_NBT_WHL_SPD_2", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilometersPerHour" }, "name": "Wheel sensor speed 2"},
@@ -573,24 +573,24 @@
     {"id": "COOPER_NBT_WHL_SPD_4", "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilometersPerHour" }, "name": "Wheel sensor speed 4"},
     {"id": "COOPER_GPS_SPD",       "path": "Engine", "fmt": {"bix": 80, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilometersPerHour" }, "name": "Speed from satellite positioning"}
   ]},
-{ "hdr": "6F1", "rax": "663", "eax": "63", "fcm1": true, "dbg": true, "cmd": {"22": "D031"}, "freq": 1,
+{ "hdr": "6F1", "rax": "663", "eax": "63", "fcm1": true, "cmd": {"22": "D031"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "COOPER_GEAR_6F1", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D85C"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D85C"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "COOPER_CABIN_T", "path": "Engine", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "celsius" }, "name": "Cabin temperature"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D8C5"}, "freq": 10, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D8C5"}, "freq": 10, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "COOPER_COMP_STATE", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "A/C compressor operating state"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D91A"}, "freq": 10, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D91A"}, "freq": 10, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "COOPER_AIR_DIST_L", "path": "Climate", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Front air distribution, left"},
     {"id": "COOPER_AIR_DIST_R", "path": "Climate", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Front air distribution, right"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D92C"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D92C"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "COOPER_HVAC_OFF", "path": "Engine", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "Climate control off"}
   ]},
@@ -598,11 +598,11 @@
   "signals": [
     {"id": "COOPER_HVAC_AUC", "path": "Engine", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "Automatic air recirculation"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D931"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D931"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "COOPER_HVAC_RECIRC", "path": "Engine", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "Recirculation"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D96B"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D96B"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "COOPER_IHX_AAT", "path": "Engine", "fmt": { "len": 16, "max": 16343, "min": -16424, "div": 2, "add": -40, "sign": true, "unit": "celsius" }, "name": "Outside temperature, climate control"}
   ]}
