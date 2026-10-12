@@ -1,16 +1,16 @@
 command_id: 6F1.660.22D111|e=60,fc=1,f=2013-;-2006
 test_cases:
 - expected_values:
+    COOPER_RANGE_F_CUR: 771
+  response: |-
+    660F1100F62D111FFFF
+    660F121FFFF1E1EFFFF
+    660F122FFFFFFFFFFFF
+- expected_values:
     COOPER_RANGE_F_CUR: 776
   response: |-
     660F1100F62D111FFFF
     660F121FFFF1E50FFFF
-    660F122FFFFFFFFFFFF
-- expected_values:
-    COOPER_RANGE_F_CUR: 779
-  response: |-
-    660F1100F62D111FFFF
-    660F121FFFF1E6EFFFF
     660F122FFFFFFFFFFFF
 - expected_values:
     COOPER_RANGE_F_CUR: 819
