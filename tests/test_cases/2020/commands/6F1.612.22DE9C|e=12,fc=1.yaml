@@ -11,12 +11,37 @@ test_cases:
     612F1100962DE9C0092
     612F121004A0000FFFF
 - expected_values:
+    COOPER_APP: 0
+  response: |-
+    612F1100962DE9C0093
+    612F121004A0000FFFF
+- expected_values:
+    COOPER_APP: 7.0625
+  response: |-
+    612F1100962DE9C00DC
+    612F121006E0071FFFF
+- expected_values:
     COOPER_APP: 8.4375
   response: |-
     612F1100962DE9C00E5
     612F12100720087FFFF
 - expected_values:
+    COOPER_APP: 9.5
+  response: |-
+    612F1100962DE9C00ED
+    612F12100760098FFFF
+- expected_values:
     COOPER_APP: 14.625
   response: |-
     612F1100962DE9C010D
     612F121008600EAFFFF
+- expected_values:
+    COOPER_APP: 21.4375
+  response: |-
+    612F1100962DE9C0138
+    612F121009D0157FFFF
+- expected_values:
+    COOPER_APP: 43.625
+  response: |-
+    612F1100962DE9C01C7
+    612F12100E502BAFFFF
