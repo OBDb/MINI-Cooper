@@ -6,3 +6,18 @@ test_cases:
 - expected_values:
     COOPER_IHX_AAT: 14.5
   response: 678F10562D96B006D
+- expected_values:
+    COOPER_IHX_AAT: 17.5
+  response: 678F10562D96B0073
+- expected_values:
+    COOPER_IHX_AAT: 18
+  response: 678F10562D96B0074
+- expected_values:
+    COOPER_IHX_AAT: 18.5
+  response: 678F10562D96B0075
+- expected_values:
+    COOPER_IHX_AAT: 20
+  response: 678F10562D96B0078
+- expected_values:
+    COOPER_IHX_AAT: 21.5
+  response: 678F10562D96B007B
