@@ -1,6 +1,24 @@
 command_id: 6F1.678.22D85C|e=78,fc=1
 test_cases:
 - expected_values:
+    COOPER_CABIN_T: 13
+  response: 678F10462D85C0D
+- expected_values:
+    COOPER_CABIN_T: 15
+  response: 678F10462D85C0F
+- expected_values:
+    COOPER_CABIN_T: 16
+  response: 678F10462D85C10
+- expected_values:
+    COOPER_CABIN_T: 17
+  response: 678F10462D85C11
+- expected_values:
+    COOPER_CABIN_T: 18
+  response: 678F10462D85C12
+- expected_values:
+    COOPER_CABIN_T: 19
+  response: 678F10462D85C13
+- expected_values:
     COOPER_CABIN_T: 20
   response: 678F10462D85C14
 - expected_values:

@@ -1,5 +1,8 @@
 command_id: 6F1.678.22D96B|e=78,fc=1
 test_cases:
 - expected_values:
+    COOPER_IHX_AAT: 4.5
+  response: 678F10562D96B0059
+- expected_values:
     COOPER_IHX_AAT: 11.5
   response: 678F10562D96B0067
