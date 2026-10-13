@@ -1,0 +1,17 @@
+command_id: 6F1.612.22558E|e=12,fc=1
+test_cases:
+- expected_values:
+    COOPER_ODO_DME: 113365
+  response: |-
+    612F1100762558E0001
+    612F121BAD5FFFFFFFF
+- expected_values:
+    COOPER_ODO_DME: 113375
+  response: |-
+    612F1100762558E0001
+    612F121BADFFFFFFFFF
+- expected_values:
+    COOPER_ODO_DME: 113376
+  response: |-
+    612F1100762558E0001
+    612F121BAE0FFFFFFFF

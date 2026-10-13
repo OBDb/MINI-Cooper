@@ -1,0 +1,22 @@
+command_id: 6F1.612.22558F|e=12,fc=1
+test_cases:
+- expected_values:
+    COOPER_ENG_HOURS: 5152
+  response: |-
+    612F1100762558F0000
+    612F1212840FFFFFFFF
+- expected_values:
+    COOPER_ENG_HOURS: 5152.5
+  response: |-
+    612F1100762558F0000
+    612F1212841FFFFFFFF
+- expected_values:
+    COOPER_ENG_HOURS: 5153
+  response: |-
+    612F1100762558F0000
+    612F1212842FFFFFFFF
+- expected_values:
+    COOPER_ENG_HOURS: 5153.5
+  response: |-
+    612F1100762558F0000
+    612F1212843FFFFFFFF

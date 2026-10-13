@@ -1,0 +1,11 @@
+command_id: 6F1.612.22582F|e=12,fc=1
+test_cases:
+- expected_values:
+    COOPER_CAT_T: 316.15
+  response: 612F10562582F1705
+- expected_values:
+    COOPER_CAT_T: 391.95
+  response: 612F10562582F19FB
+- expected_values:
+    COOPER_CAT_T: 685.85
+  response: 612F10562582F2576

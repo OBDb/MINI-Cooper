@@ -1,0 +1,14 @@
+command_id: 6F1.612.224408|e=12,fc=1
+test_cases:
+- expected_values:
+    COOPER_EOT_DME: 15.85
+  response: 612F1056244080B4A
+- expected_values:
+    COOPER_EOT_DME: 60.45
+  response: 612F1056244080D08
+- expected_values:
+    COOPER_EOT_DME: 85.05
+  response: 612F1056244080DFE
+- expected_values:
+    COOPER_EOT_DME: 88.65
+  response: 612F1056244080E22

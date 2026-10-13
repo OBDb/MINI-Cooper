@@ -1,0 +1,11 @@
+command_id: 6F1.612.2258BA|e=12,fc=1
+test_cases:
+- expected_values:
+    COOPER_CRANK_TQ: 0
+  response: 612F1056258BA0000
+- expected_values:
+    COOPER_CRANK_TQ: 25.2
+  response: 612F1056258BA00FC
+- expected_values:
+    COOPER_CRANK_TQ: 142.9
+  response: 612F1056258BA0595
