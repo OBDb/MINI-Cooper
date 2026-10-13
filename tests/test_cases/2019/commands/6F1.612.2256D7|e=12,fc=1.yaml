@@ -1,0 +1,14 @@
+command_id: 6F1.612.2256D7|e=12,fc=1
+test_cases:
+- expected_values:
+    COOPER_FRP: 132.54
+  response: 612F1056256D719E3
+- expected_values:
+    COOPER_FRP: 168.94
+  response: 612F1056256D720FF
+- expected_values:
+    COOPER_FRP: 189.46
+  response: 612F1056256D72501
+- expected_values:
+    COOPER_FRP: 348.92
+  response: 612F1056256D74426
