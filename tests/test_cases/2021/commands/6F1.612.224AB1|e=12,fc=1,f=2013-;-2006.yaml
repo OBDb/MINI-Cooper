@@ -4,8 +4,8 @@ test_cases:
     COOPER_VSS2: 0
   response: 612F105624AB10000
 - expected_values:
-    COOPER_VSS2: 20.47
-  response: 612F105624AB107FF
+    COOPER_VSS2: 15.35
+  response: 612F105624AB105FF
 - expected_values:
     COOPER_VSS2: 139.16
   response: 612F105624AB1365C
