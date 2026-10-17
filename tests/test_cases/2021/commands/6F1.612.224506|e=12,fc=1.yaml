@@ -1,14 +1,14 @@
 command_id: 6F1.612.224506|e=12,fc=1
 test_cases:
 - expected_values:
-    COOPER_OIL_TEMP: 4
-  response: 612F105624506042B
+    COOPER_OIL_TEMP: 1
+  response: 612F10562450601F4
 - expected_values:
     COOPER_OIL_TEMP: 40
   response: 612F1056245062800
 - expected_values:
-    COOPER_OIL_TEMP: 69
-  response: 612F10562450645FC
+    COOPER_OIL_TEMP: 108
+  response: 612F1056245066CFF
 - expected_values:
     COOPER_OIL_TEMP: 111
   response: 612F1056245066F12
