@@ -4,11 +4,11 @@ test_cases:
     COOPER_OIL_TEMP: 1
   response: 612F10562450601F4
 - expected_values:
+    COOPER_OIL_TEMP: 2
+  response: 612F10562450602FF
+- expected_values:
     COOPER_OIL_TEMP: 40
   response: 612F1056245062800
 - expected_values:
-    COOPER_OIL_TEMP: 108
-  response: 612F1056245066CFF
-- expected_values:
     COOPER_OIL_TEMP: 111
-  response: 612F1056245066F12
+  response: 612F1056245066F03
