@@ -84,7 +84,7 @@
   "signals": [
     {"id": "COOPER_IAT", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 150, "unit": "celsius" }, "name": "Intake air temperature"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "402B"}, "freq": 10, "dbgfilter": { "to": 2018, "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "402B"}, "freq": 10, "dbgfilter": { "to": 2015, "years": [2017, 2018], "from": 2022 },
   "signals": [
     {"id": "COOPER_12V_T", "path": "Electrical", "fmt": {           "len": 16, "max": 3276.7,  "min": -3276.8, "div": 10,                "sign": true, "unit": "celsius" }, "name": "12V battery temperature"},
     {"id": "COOPER_12V_V", "path": "Electrical", "fmt": {"bix": 16, "len": 16, "max": 22.3837, "min": 6,       "div": 4000, "add": 6,                  "unit": "volts"   }, "name": "12V battery voltage",     "suggestedMetric": "starterBatteryVoltage"},
