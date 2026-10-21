@@ -1,0 +1,17 @@
+command_id: 6F1.660.22D107|e=60,fc=1,f=2014-
+test_cases:
+- expected_values:
+    COOPER_VSS: 0.1
+  response: 660F10562D1070001
+- expected_values:
+    COOPER_VSS: 26.1
+  response: 660F10562D1070105
+- expected_values:
+    COOPER_VSS: 44.5
+  response: 660F10562D10701BD
+- expected_values:
+    COOPER_VSS: 55.4
+  response: 660F10562D107022A
+- expected_values:
+    COOPER_VSS: 68.1
+  response: 660F10562D10702A9
