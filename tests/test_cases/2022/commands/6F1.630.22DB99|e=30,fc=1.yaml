@@ -1,0 +1,17 @@
+command_id: 6F1.630.22DB99|e=30,fc=1
+test_cases:
+- expected_values:
+    COOPER_STEER_TQ: 0.10156
+  response: 630F10662DB99000D00
+- expected_values:
+    COOPER_STEER_TQ: 0.10938
+  response: 630F10662DB99000E00
+- expected_values:
+    COOPER_STEER_TQ: -0.60938
+  response: 630F10662DB99FFB200
+- expected_values:
+    COOPER_STEER_TQ: -0.0625
+  response: 630F10662DB99FFF800
+- expected_values:
+    COOPER_STEER_TQ: -0.05469
+  response: 630F10662DB99FFF900

@@ -113,6 +113,7 @@ supported_commands_by_ecu:
   - 0142:VPWR
   - 0143:LOAD_ABS
   - 0144:EQ_RAT
+  - 0145:TP_R
   - 7E0.0106:SHRTFT1
   - 7E0.0110:MAF
   - 7E0.0131:CLR_DIST

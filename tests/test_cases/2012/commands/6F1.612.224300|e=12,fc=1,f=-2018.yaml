@@ -1,0 +1,8 @@
+command_id: 6F1.612.224300|e=12,fc=1,f=-2018
+test_cases:
+- expected_values:
+    COOPER_ET_8: 67.94
+  response: 612F1046243005B
+- expected_values:
+    COOPER_ET_8: 228.74
+  response: 612F104624300D3

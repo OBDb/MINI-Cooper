@@ -1,0 +1,23 @@
+command_id: 6F1.61A.22DEA7|e=1A,fc=1
+test_cases:
+- expected_values:
+    COOPER_EM_RPM: 0
+    COOPER_EM_TQ: 0
+    COOPER_EM_TQ_TGT: 0
+  response: |-
+    61AF1100A62DEA72710
+    61AF1210000000000FF
+- expected_values:
+    COOPER_EM_RPM: 0
+    COOPER_EM_TQ: 1
+    COOPER_EM_TQ_TGT: 1
+  response: |-
+    61AF1100A62DEA72710
+    61AF1210002000205FF
+- expected_values:
+    COOPER_EM_RPM: 169
+    COOPER_EM_TQ: -12.5
+    COOPER_EM_TQ_TGT: -13
+  response: |-
+    61AF1100A62DEA72862
+    61AF121FFE7FFE605FF
