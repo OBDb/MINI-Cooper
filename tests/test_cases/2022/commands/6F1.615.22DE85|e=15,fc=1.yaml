@@ -1,0 +1,9 @@
+command_id: 6F1.615.22DE85|e=15,fc=1
+test_cases:
+- expected_values:
+    COOPER_OBC_EFF_CYCLE: 0
+    COOPER_OBC_EFF_DC: 0
+    COOPER_OBC_PWR: 0
+  response: |-
+    615F1100762DE850000
+    615F1210000FFFFFFFF

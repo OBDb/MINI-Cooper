@@ -1,0 +1,14 @@
+command_id: 6F1.612.225AC3|e=12,fc=1
+test_cases:
+- expected_values:
+    COOPER_FUEL_PRES: 1541.8
+  response: 612F105625AC30251
+- expected_values:
+    COOPER_FUEL_PRES: 25290.2
+  response: 612F105625AC325FF
+- expected_values:
+    COOPER_FUEL_PRES: 26624
+  response: 612F105625AC32800
+- expected_values:
+    COOPER_FUEL_PRES: 62379.2
+  response: 612F105625AC35DB8
