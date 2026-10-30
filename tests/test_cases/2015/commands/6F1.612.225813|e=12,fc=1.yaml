@@ -1,0 +1,11 @@
+command_id: 6F1.612.225813|e=12,fc=1
+test_cases:
+- expected_values:
+    COOPER_LOAD: 2.35294
+  response: 612F10462581306
+- expected_values:
+    COOPER_LOAD: 14.90196
+  response: 612F10462581326
+- expected_values:
+    COOPER_LOAD: 32.94118
+  response: 612F10462581354
