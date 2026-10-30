@@ -1,0 +1,11 @@
+command_id: 6F1.612.224AB0|e=12,fc=1
+test_cases:
+- expected_values:
+    COOPER_BOOST_P_SET: 102.16016
+  response: 612F105624AB06629
+- expected_values:
+    COOPER_BOOST_P_SET: 141.96094
+  response: 612F105624AB08DF6
+- expected_values:
+    COOPER_BOOST_P_SET: 141.97266
+  response: 612F105624AB08DF9

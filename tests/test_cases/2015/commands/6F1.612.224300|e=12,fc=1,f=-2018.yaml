@@ -1,0 +1,14 @@
+command_id: 6F1.612.224300|e=12,fc=1,f=-2018
+test_cases:
+- expected_values:
+    COOPER_ET_8: 50.52
+  response: 612F1046243004E
+- expected_values:
+    COOPER_ET_8: 51.86
+  response: 612F1046243004F
+- expected_values:
+    COOPER_ET_8: 57.22
+  response: 612F10462430053
+- expected_values:
+    COOPER_ET_8: 58.56
+  response: 612F10462430054
