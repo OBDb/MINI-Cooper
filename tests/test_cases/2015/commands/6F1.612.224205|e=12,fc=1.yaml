@@ -7,6 +7,9 @@ test_cases:
     COOPER_BOOST_P: 102.07812
   response: 612F105624205330A
 - expected_values:
+    COOPER_BOOST_P: 102.13281
+  response: 612F1056242053311
+- expected_values:
     COOPER_BOOST_P: 102.35156
   response: 612F105624205332D
 - expected_values:

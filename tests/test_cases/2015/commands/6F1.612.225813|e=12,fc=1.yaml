@@ -4,6 +4,9 @@ test_cases:
     COOPER_LOAD: 2.35294
   response: 612F10462581306
 - expected_values:
+    COOPER_LOAD: 3.13725
+  response: 612F10462581308
+- expected_values:
     COOPER_LOAD: 14.90196
   response: 612F10462581326
 - expected_values:

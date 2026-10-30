@@ -1,6 +1,9 @@
 command_id: 6F1.612.22586F|e=12,fc=1
 test_cases:
 - expected_values:
+    COOPER_EOP: 1.056
+  response: 612F10562586F0420
+- expected_values:
     COOPER_EOP: 1.069
   response: 612F10562586F042D
 - expected_values:

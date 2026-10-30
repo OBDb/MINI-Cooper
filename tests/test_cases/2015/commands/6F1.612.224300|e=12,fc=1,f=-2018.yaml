@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     COOPER_ET_8: 58.56
   response: 612F10462430054
+- expected_values:
+    COOPER_ET_8: 216.68
+  response: 612F104624300CA

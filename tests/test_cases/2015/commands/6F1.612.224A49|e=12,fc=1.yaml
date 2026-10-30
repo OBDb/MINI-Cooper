@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     COOPER_IGN_TIMING_1: 6.1
   response: 612F105624A49003D
+- expected_values:
+    COOPER_IGN_TIMING_1: -16.8
+  response: 612F105624A49FF58

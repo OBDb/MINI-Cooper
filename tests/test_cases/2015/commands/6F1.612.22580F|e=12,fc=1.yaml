@@ -6,3 +6,9 @@ test_cases:
 - expected_values:
     COOPER_IAT_DME: 15.75
   response: 612F10462580F55
+- expected_values:
+    COOPER_IAT_DME: 29.25
+  response: 612F10462580F67
+- expected_values:
+    COOPER_IAT_DME: 30
+  response: 612F10462580F68

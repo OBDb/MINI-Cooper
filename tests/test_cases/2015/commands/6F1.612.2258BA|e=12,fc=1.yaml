@@ -4,5 +4,8 @@ test_cases:
     COOPER_CRANK_TQ: 0
   response: 612F1056258BA0000
 - expected_values:
+    COOPER_CRANK_TQ: 36.1
+  response: 612F1056258BA0169
+- expected_values:
     COOPER_CRANK_TQ: 78.6
   response: 612F1056258BA0312
