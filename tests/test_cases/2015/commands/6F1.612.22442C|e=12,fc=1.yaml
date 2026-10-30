@@ -1,6 +1,9 @@
 command_id: 6F1.612.22442C|e=12,fc=1
 test_cases:
 - expected_values:
+    COOPER_OIL_LEVEL: 37
+  response: 612F10462442C25
+- expected_values:
     COOPER_OIL_LEVEL: 47
   response: 612F10462442C2F
 - expected_values:

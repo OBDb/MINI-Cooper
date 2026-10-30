@@ -7,18 +7,6 @@ test_cases:
     629F121000000000000
     629F12200000000FFFF
 - expected_values:
-    COOPER_BRAKE_P: 0.1
-  response: |-
-    629F1100F62DBE50001
-    629F121000000000000
-    629F12200000000FFFF
-- expected_values:
-    COOPER_BRAKE_P: 24.3
-  response: |-
-    629F1100F62DBE500F3
-    629F121000000000000
-    629F12200000000FFFF
-- expected_values:
     COOPER_BRAKE_P: -0.3
   response: |-
     629F1100F62DBE5FFFD

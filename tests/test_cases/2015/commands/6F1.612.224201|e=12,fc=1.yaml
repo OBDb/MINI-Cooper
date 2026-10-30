@@ -13,6 +13,9 @@ test_cases:
     COOPER_BARO: 102.0625
   response: 612F1056242016610
 - expected_values:
+    COOPER_BARO: 102.09766
+  response: 612F1056242016619
+- expected_values:
     COOPER_BARO: 102.13281
   response: 612F1056242016622
 - expected_values:
