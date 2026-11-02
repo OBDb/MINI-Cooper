@@ -61,6 +61,10 @@ supported_commands_by_ecu:
   - 0145:TP_R
   - 0146:AAT
   - 0147:TP_B
+  - 0149:APP_D
+  - 014A:APP_E
+  - 014C:TAC_PCT
+  - 0156:LGSO2FT1
   - 7E0.0104:LOAD_PCT
   - 7E0.012F:FLI
   - 7E0.0144:EQ_RAT
