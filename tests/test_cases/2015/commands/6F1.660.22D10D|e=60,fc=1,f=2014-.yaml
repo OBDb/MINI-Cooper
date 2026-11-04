@@ -25,6 +25,12 @@ test_cases:
     660F1100B62D10D0001
     660F121A7A00001A7A0
 - expected_values:
+    COOPER_ODO: 108580
+    COOPER_ODO_ALT: 108580
+  response: |-
+    660F1100B62D10D0001
+    660F121A8240001A824
+- expected_values:
     COOPER_ODO: 175470
     COOPER_ODO_ALT: 175470
   response: |-
