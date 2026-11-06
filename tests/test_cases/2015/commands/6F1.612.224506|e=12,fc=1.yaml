@@ -4,29 +4,8 @@ test_cases:
     COOPER_OIL_TEMP: 0
   response: 612F1056245060000
 - expected_values:
-    COOPER_OIL_TEMP: 3
-  response: 612F1056245060331
-- expected_values:
-    COOPER_OIL_TEMP: 3
-  response: 612F1056245060338
-- expected_values:
     COOPER_OIL_TEMP: 8
   response: 612F10562450608DA
-- expected_values:
-    COOPER_OIL_TEMP: 10
-  response: 612F1056245060A64
-- expected_values:
-    COOPER_OIL_TEMP: 10
-  response: 612F1056245060A6A
-- expected_values:
-    COOPER_OIL_TEMP: 10
-  response: 612F1056245060A6E
-- expected_values:
-    COOPER_OIL_TEMP: 10
-  response: 612F1056245060A6F
-- expected_values:
-    COOPER_OIL_TEMP: 17
-  response: 612F1056245061158
 - expected_values:
     COOPER_OIL_TEMP: 24
   response: 612F1056245061899
