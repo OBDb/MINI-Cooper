@@ -6,3 +6,9 @@ test_cases:
 - expected_values:
     COOPER_GEAR_SHIFT: DRIVE
   response: 618F10462DA2E03
+- expected_values:
+    COOPER_GEAR_SHIFT: DRIVE
+  response: 618F10462DA2E04
+- expected_values:
+    COOPER_GEAR_SHIFT: DRIVE
+  response: 618F10462DA2E06
