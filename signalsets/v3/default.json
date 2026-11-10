@@ -125,7 +125,7 @@
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4205"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2016, 2017, 2018, 2020], "from": 2022 },
   "signals": [
-    {"id": "COOPER_BOOST_P", "path": "Engine", "fmt": { "len": 16, "max": 511.99, "div": 128, "unit": "kilopascal" }, "name": "Boost pressure"}
+    {"id": "COOPER_BOOST_P", "path": "Engine", "fmt": { "len": 16, "max": 511.99, "div": 128, "unit": "kilopascal" }, "name": "Boost pressure", "suggestedMetric": "absoluteBoostPressure"}
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4300"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2010, "years": [2013, 2014, 2017] },
   "signals": [
@@ -378,13 +378,20 @@
     {"id": "COOPER_TQ_CNVRT_RPM",    "path": "Transmission", "fmt": {           "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Torque converter speed"},
     {"id": "COOPER_TRANS_SHAFT_RPM", "path": "Transmission", "fmt": {"bix": 16, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Transmission output shaft speed"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA2E"}, "freq": 1, "filter": { "from": 2014 }, "dbgfilter": { "to": 2014, "years": [2017, 2018, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA2E"}, "freq": 0.25, "filter": { "from": 2014 }, "dbgfilter": { "to": 2014, "years": [2017, 2018, 2022, 2023, 2024], "from": 2026 },
   "signals": [
-    {"id": "COOPER_GEAR_SHIFT", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
-          "0": { "description": "Park",    "value": "PARK" },
-          "1": { "description": "Reverse", "value": "REVERSE" },
-          "2": { "description": "Neutral", "value": "NEUTRAL" },
-          "3": { "description": "Drive",   "value": "DRIVE" }
+    {"id": "COOPER_GEAR_SHIFT", "path": "Transmission", "name": "Shift gear", "suggestedMetric": "gearSelector", "fmt": {"len": 8, "map": {
+          "0":  { "description": "Park",    "value": "PARK" },
+          "1":  { "description": "Reverse", "value": "REVERSE" },
+          "2":  { "description": "Neutral", "value": "NEUTRAL" },
+          "3":  { "description": "Drive",   "value": "DRIVE" },
+          "4":  { "description": "Drive",   "value": "DRIVE" },
+          "5":  { "description": "Drive",   "value": "DRIVE" },
+          "6":  { "description": "Drive",   "value": "DRIVE" },
+          "7":  { "description": "Drive",   "value": "DRIVE" },
+          "8":  { "description": "Drive",   "value": "DRIVE" },
+          "9":  { "description": "Drive",   "value": "DRIVE" },
+          "16": { "description": "Drive",   "value": "DRIVE" }
         }}
     },
     {"id": "COOPER_GEAR", "path": "Transmission", "name": "Drive mode", "fmt": {"bix": 8, "len": 8, "map": {
