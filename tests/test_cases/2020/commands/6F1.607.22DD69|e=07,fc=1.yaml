@@ -1,0 +1,27 @@
+command_id: 6F1.607.22DD69|e=07,fc=1
+test_cases:
+- expected_values:
+    COOPER_HVBAT_CURR: 0
+  response: |-
+    607F1100762DD690000
+    607F1210000FFFFFFFF
+- expected_values:
+    COOPER_HVBAT_CURR: 1.11
+  response: |-
+    607F1100762DD690000
+    607F121006FFFFFFFFF
+- expected_values:
+    COOPER_HVBAT_CURR: -95.56
+  response: |-
+    607F1100762DD69FFFF
+    607F121DAACFFFFFFFF
+- expected_values:
+    COOPER_HVBAT_CURR: -39.73
+  response: |-
+    607F1100762DD69FFFF
+    607F121F07BFFFFFFFF
+- expected_values:
+    COOPER_HVBAT_CURR: -0.13
+  response: |-
+    607F1100762DD69FFFF
+    607F121FFF3FFFFFFFF
